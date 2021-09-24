@@ -1,0 +1,150 @@
+{
+   "@version": "1.0",
+   "AdBreak": {
+      "@timeOffset": "start",
+      "@breakType": "linear",
+      "@breakId": "preroll",
+      "AdSource": {
+         "@id": "preroll-ad",
+         "@allowMultipleAds": "true",
+         "@followRedirects": "true",
+         "VASTAdData": {
+            "VAST": {
+               "@version": "3.0",
+               "Ad": [
+                  {
+                     "@id": "1",
+                     "@sequence": "1",
+                     "InLine": {
+                        "AdSystem": {
+                           "@version": "1.0",
+                           "#text": "Test Ad Server"
+                        },
+                        "AdTitle": "Portals",
+                        "Description": "Demo ad number 6",
+                        "Error": "",
+                        "Creatives": {
+                           "Creative": {
+                              "Linear": {
+                                 "Duration": "00:00:8",
+                                 "TrackingEvents": [],
+                                 "AdParameters": "<xml><\/xml>",
+                                 "VideoClicks": [],
+                                 "MediaFiles": {
+                                    "MediaFile": {
+                                       "@type": "video/mp4",
+                                       "@width": "1280",
+                                       "@height": "720",
+                                       "@delivery": "progressive",
+                                       "@id": "2",
+                                       "@bitrate": "4316",
+                                       "@minBitrate": "320",
+                                       "@maxBitrate": "320",
+                                       "@scalable": "true",
+                                       "@maintainAspectRatio": "true",
+                                       "#text": "http://solutions.brightcove.com/bcls/ads/bc-ads/bcls-ad-6-5seconds.mp4"
+                                    }
+                                 }
+                              }
+                           }
+                        },
+                        "Extensions": {
+                           "Extension": {
+                              "xml": "data"
+                           }
+                        }
+                     }
+                  },
+                  {
+                     "@id": "2",
+                     "@sequence": "2",
+                     "InLine": {
+                        "AdSystem": {
+                           "@version": "1.0",
+                           "#text": "Test Ad Server"
+                        },
+                        "AdTitle": "Marketing",
+                        "Description": "Demo ad number 4",
+                        "Error": "",
+                        "Creatives": {
+                           "Creative": {
+                              "Linear": {
+                                 "@skipoffset": "00:00:05",
+                                 "Duration": "00:00:12",
+                                 "TrackingEvents": [],
+                                 "AdParameters": "<xml><\/xml>",
+                                 "VideoClicks": [],
+                                 "MediaFiles": {
+                                    "MediaFile": {
+                                       "@type": "video/mp4",
+                                       "@width": "1280",
+                                       "@height": "720",
+                                       "@delivery": "progressive",
+                                       "@id": "3",
+                                       "@bitrate": "3026",
+                                       "@minBitrate": "320",
+                                       "@maxBitrate": "320",
+                                       "@scalable": "true",
+                                       "@maintainAspectRatio": "true",
+                                       "#text": "http://solutions.brightcove.com/bcls/ads/bc-ads/bcls-ad-4-12seconds.mp4"
+                                    }
+                                 }
+                              }
+                           }
+                        },
+                        "Extensions": {
+                           "Extension": {
+                              "xml": "data"
+                           }
+                        }
+                     }
+                  },
+                  {
+                     "@id": "3",
+                     "@sequence": "3",
+                     "InLine": {
+                        "AdSystem": {
+                           "@version": "1.0",
+                           "#text": "Test Ad Server"
+                        },
+                        "AdTitle": "Brand",
+                        "Description": "Demo ad number 1",
+                        "Error": "",
+                        "Creatives": {
+                           "Creative": {
+                              "Linear": {
+                                 "Duration": "00:00:08",
+                                 "TrackingEvents": [],
+                                 "AdParameters": "<xml><\/xml>",
+                                 "VideoClicks": [],
+                                 "MediaFiles": {
+                                    "MediaFile": {
+                                       "@type": "video/mp4",
+                                       "@width": "1280",
+                                       "@height": "720",
+                                       "@delivery": "progressive",
+                                       "@id": "4",
+                                       "@bitrate": "2115",
+                                       "@minBitrate": "320",
+                                       "@maxBitrate": "320",
+                                       "@scalable": "true",
+                                       "@maintainAspectRatio": "true",
+                                       "#text": "http://solutions.brightcove.com/bcls/ads/bc-ads/bcls-ad-1-8seconds.mp4"
+                                    }
+                                 }
+                              }
+                           }
+                        },
+                        "Extensions": {
+                           "Extension": {
+                              "xml": "data"
+                           }
+                        }
+                     }
+                  }
+               ]
+            }
+         }
+      }
+   }
+}
